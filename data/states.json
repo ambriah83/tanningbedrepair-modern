@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Alabama",
+    "slug": "alabama",
+    "description": "Professional tanning bed repair services in Alabama. Expert technicians available for commercial tanning salons and residential tanning equipment.",
+    "phone": "1-800-XXX-XXXX",
+    "image": "/images/alabama-tanning-bed-repair.jpg"
+  },
+  {
+    "name": "Alaska",
+    "slug": "alaska",
+    "description": "Tanning bed repair and maintenance services throughout Alaska. Serving tanning salons with expert technical support.",
+    "phone": "1-800-XXX-XXXX",
+    "image": "/images/alaska-tanning-bed-repair.gif"
+  },
+  {
+    "name": "Arizona",
+    "slug": "arizona",
+    "description": "Arizona tanning bed repair specialists. Fast, reliable service for all major tanning bed brands.",
+    "phone": "1-800-XXX-XXXX",
+    "image": "/images/arizona-tanning-bed-repair.jpg"
+  },
+  {
+    "name": "California",
+    "slug": "california",
+    "description": "California's trusted tanning bed repair service. Covering all major cities with professional technicians.",
+    "phone": "1-800-XXX-XXXX",
+    "image": "/images/california-tanning-bed-repair.jpg"
+  },
+  {
+    "name": "Florida",
+    "slug": "florida",
+    "description": "Florida tanning bed repair experts. Quick response times and quality service across the state.",
+    "phone": "1-800-XXX-XXXX",
+    "image": "/images/florida-tanning-bed-repair.jpg"
+  },
+  {
+    "name": "Texas",
+    "slug": "texas",
+    "description": "Texas tanning equipment repair and maintenance. Serving salons statewide with expert service.",
+    "phone": "1-800-XXX-XXXX",
+    "image": "/images/texas-tanning-bed-repair.jpg"
+  }
+]

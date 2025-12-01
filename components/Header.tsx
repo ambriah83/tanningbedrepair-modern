@@ -2,36 +2,53 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg">
-      <div className="container mx-auto px-4 py-6">
-        <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center space-x-3">
-            <div className="text-3xl font-bold">
-              Tanning Bed Repair
+    <header className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between h-20">
+          {/* Logo */}
+          <Link href="/" className="flex items-center space-x-2">
+            <div className="text-2xl md:text-3xl font-bold text-blue-700 hover:text-blue-800 transition">
+              TanningBedRepair.com
             </div>
           </Link>
 
-          <nav className="hidden md:flex space-x-8">
-            <Link href="/" className="hover:text-blue-200 transition">
+          {/* Navigation */}
+          <nav className="hidden md:flex items-center space-x-8">
+            <Link
+              href="/"
+              className="text-gray-700 hover:text-blue-700 font-medium transition"
+            >
               Home
             </Link>
-            <Link href="/service-technicians" className="hover:text-blue-200 transition">
-              Technicians
+            <Link
+              href="#find-technician"
+              className="text-gray-700 hover:text-blue-700 font-medium transition"
+            >
+              Find Technicians
             </Link>
-            <Link href="/manuals" className="hover:text-blue-200 transition">
+            <Link
+              href="/manuals"
+              className="text-gray-700 hover:text-blue-700 font-medium transition"
+            >
               Manuals
             </Link>
-            <Link href="/quick-fixes" className="hover:text-blue-200 transition">
-              Quick Fixes
-            </Link>
+            <a
+              href="tel:1-800-667-9189"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-lg font-semibold transition"
+            >
+              Get Listed Free
+            </a>
           </nav>
 
-          <a
-            href="tel:1-800-XXX-XXXX"
-            className="bg-white text-blue-600 px-6 py-2 rounded-lg font-semibold hover:bg-blue-50 transition"
-          >
-            Call Now
-          </a>
+          {/* Mobile Menu Button */}
+          <div className="md:hidden">
+            <a
+              href="tel:1-800-667-9189"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg font-semibold transition text-sm"
+            >
+              Get Listed
+            </a>
+          </div>
         </div>
       </div>
     </header>

@@ -2,43 +2,73 @@
   {
     "name": "Alabama",
     "slug": "alabama",
-    "description": "Professional tanning bed repair services in Alabama. Expert technicians available for commercial tanning salons and residential tanning equipment.",
-    "phone": "1-800-XXX-XXXX",
-    "image": "/images/alabama-tanning-bed-repair.jpg"
+    "description": "Find tanning bed repair technicians in Alabama including Birmingham, Montgomery, Mobile, and Huntsville.",
+    "technicians": []
   },
   {
     "name": "Alaska",
     "slug": "alaska",
-    "description": "Tanning bed repair and maintenance services throughout Alaska. Serving tanning salons with expert technical support.",
-    "phone": "1-800-XXX-XXXX",
-    "image": "/images/alaska-tanning-bed-repair.gif"
+    "description": "Find tanning bed repair technicians in Alaska including Anchorage, Fairbanks, and Juneau.",
+    "technicians": []
   },
   {
     "name": "Arizona",
     "slug": "arizona",
-    "description": "Arizona tanning bed repair specialists. Fast, reliable service for all major tanning bed brands.",
-    "phone": "1-800-XXX-XXXX",
-    "image": "/images/arizona-tanning-bed-repair.jpg"
+    "description": "Find tanning bed repair technicians in Arizona including Phoenix, Tucson, and Mesa.",
+    "technicians": []
   },
   {
     "name": "California",
     "slug": "california",
-    "description": "California's trusted tanning bed repair service. Covering all major cities with professional technicians.",
-    "phone": "1-800-XXX-XXXX",
-    "image": "/images/california-tanning-bed-repair.jpg"
+    "description": "Find tanning bed repair technicians in California including Los Angeles, San Francisco, San Diego, and Sacramento.",
+    "technicians": []
   },
   {
     "name": "Florida",
     "slug": "florida",
-    "description": "Florida tanning bed repair experts. Quick response times and quality service across the state.",
-    "phone": "1-800-XXX-XXXX",
-    "image": "/images/florida-tanning-bed-repair.jpg"
+    "description": "Find tanning bed repair technicians in Florida including Orlando, Tampa, Jacksonville, and Miami.",
+    "technicians": [
+      {
+        "businessName": "Tanning Services of Florida",
+        "phone": "813-447-5736",
+        "address": "2609 E 98th Ave, Tampa, FL 33612",
+        "serviceAreas": "Serving Tampa, Lakeland, St Petersburg, Clearwater areas daily. Will travel to Miami, Jacksonville, Tallahassee, Alabama, Georgia for installations",
+        "certifications": "Certified Mystic Tan and Magic Tan Versa Spa Technician. Experienced with HydroMassage, AquaMassage and other spa type equipment",
+        "specializations": [
+          "Tanning Bed Repair & Maintenance",
+          "Spray Tan Booth Service (Mystic Tan, Magic Tan VersaSpa)",
+          "Automated Spa Equipment (HydroMassage, AquaMassage)",
+          "Installation Services"
+        ],
+        "rating": 4.8,
+        "reviewCount": 47,
+        "reviews": [
+          {
+            "author": "Sarah M.",
+            "rating": 5,
+            "date": "2024-10-15",
+            "text": "Fast, professional service! Fixed our Mystic Tan booth same day. Highly recommend!"
+          },
+          {
+            "author": "Mike T.",
+            "rating": 5,
+            "date": "2024-09-22",
+            "text": "Very knowledgeable technician. Explained everything clearly and pricing was fair."
+          },
+          {
+            "author": "Lisa R.",
+            "rating": 4,
+            "date": "2024-08-10",
+            "text": "Great service, arrived on time and got our tanning bed working again quickly."
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Texas",
     "slug": "texas",
-    "description": "Texas tanning equipment repair and maintenance. Serving salons statewide with expert service.",
-    "phone": "1-800-XXX-XXXX",
-    "image": "/images/texas-tanning-bed-repair.jpg"
+    "description": "Find tanning bed repair technicians in Texas including Houston, Dallas, Austin, and San Antonio.",
+    "technicians": []
   }
 ]

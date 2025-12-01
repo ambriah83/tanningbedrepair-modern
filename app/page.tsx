@@ -1,106 +1,212 @@
+'use client';
+
 import Link from 'next/link';
+import Image from 'next/image';
 import statesData from '../data/states.json';
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            Professional Tanning Bed Repair
-          </h1>
-          <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-            Expert technicians nationwide. Fast response times. All major brands.
-            Get your tanning equipment back up and running quickly.
-          </p>
-          <div className="flex gap-4 justify-center">
+      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <div className="text-center mb-12">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">
+              Tanning Bed, Spray Booth & Spa Equipment Repair
+            </h1>
+            <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
+              Nationwide directory of certified technicians. Free listings for repair experts.
+            </p>
+          </div>
+
+          {/* Dual CTA Buttons */}
+          <div className="flex flex-col md:flex-row gap-6 justify-center items-center mb-12">
             <a
-              href="tel:1-800-XXX-XXXX"
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition"
+              href="#find-technician"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-12 py-5 rounded-lg text-xl font-bold shadow-lg hover:shadow-xl transition transform hover:scale-105 w-full md:w-auto text-center"
             >
-              Call Now: 1-800-XXX-XXXX
+              Find a Technician →
             </a>
-            <Link
-              href="/service-technicians"
-              className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-50 transition"
+            <a
+              href="tel:1-800-667-9189"
+              className="bg-white hover:bg-gray-100 text-blue-700 px-12 py-5 rounded-lg text-xl font-bold shadow-lg hover:shadow-xl transition border-2 border-white transform hover:scale-105 w-full md:w-auto text-center"
             >
-              Find a Technician
-            </Link>
+              List Your Business Free →
+            </a>
+          </div>
+
+          {/* Trust Badge */}
+          <div className="text-center text-blue-100">
+            <p className="text-lg">Trusted since 2001 • 500+ Technicians nationwide • All 50 states</p>
           </div>
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Professional Service Section with Images */}
       <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gray-50 p-8 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Equipment Repair</h3>
-              <p className="text-gray-600">
-                Complete repair services for all tanning bed brands including bulb replacement,
-                ballast repairs, timer issues, and electrical problems.
-              </p>
+        <div className="container mx-auto px-4 max-w-6xl">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Professional, Certified Technicians
+            </h2>
+            <p className="text-xl text-gray-600">
+              Experienced repair experts serving salons nationwide
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 mb-16">
+            <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition">
+              <div className="relative h-64">
+                <Image
+                  src="/images/Tanning Bed Repair Image 1.png"
+                  alt="Professional tanning bed technician performing diagnostics"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-4 text-center">
+                <p className="font-semibold text-gray-900">Expert Diagnostics</p>
+                <p className="text-sm text-gray-600 mt-2">Professional testing & troubleshooting</p>
+              </div>
             </div>
-            <div className="bg-gray-50 p-8 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Maintenance</h3>
-              <p className="text-gray-600">
-                Regular maintenance programs to keep your equipment running efficiently
-                and prevent costly breakdowns.
-              </p>
+            <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition">
+              <div className="relative h-64">
+                <Image
+                  src="/images/Tanning Bed Repair Image 2.png"
+                  alt="Certified technician repairing tanning equipment"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-4 text-center">
+                <p className="font-semibold text-gray-900">Professional Service</p>
+                <p className="text-sm text-gray-600 mt-2">Experienced repair specialists</p>
+              </div>
             </div>
-            <div className="bg-gray-50 p-8 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Parts & Support</h3>
-              <p className="text-gray-600">
-                Genuine parts, technical manuals, and expert phone support to help
-                you troubleshoot issues quickly.
-              </p>
+            <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition">
+              <div className="relative h-64">
+                <Image
+                  src="/images/Tanning Bed Repair Image 3.png"
+                  alt="Quality service technicians working together"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-4 text-center">
+                <p className="font-semibold text-gray-900">Quality Guaranteed</p>
+                <p className="text-sm text-gray-600 mt-2">All major brands serviced</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* States Section */}
+      {/* Three Column Benefits */}
       <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">
-            Service Areas - Select Your State
-          </h2>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {statesData.map((state) => (
-              <Link
-                key={state.slug}
-                href={`/states/${state.slug}`}
-                className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition text-center border border-gray-200 hover:border-blue-500"
-              >
-                <h3 className="text-lg font-semibold text-blue-600 hover:text-blue-700">
-                  {state.name}
-                </h3>
-              </Link>
-            ))}
+        <div className="container mx-auto px-4 max-w-6xl">
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* For Salon Owners */}
+            <div className="bg-white p-8 rounded-lg shadow-md text-center">
+              <div className="text-5xl mb-4">🏪</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">For Salon Owners</h3>
+              <ul className="text-left space-y-3 text-gray-700">
+                <li>✓ Find local experts quickly</li>
+                <li>✓ Emergency repairs available</li>
+                <li>✓ All major brands serviced</li>
+                <li>✓ Direct contact with technicians</li>
+              </ul>
+            </div>
+
+            {/* For Technicians */}
+            <div className="bg-white p-8 rounded-lg shadow-md text-center">
+              <div className="text-5xl mb-4">🔧</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">For Technicians</h3>
+              <ul className="text-left space-y-3 text-gray-700">
+                <li>✓ Get free listings</li>
+                <li>✓ Training resources provided</li>
+                <li>✓ Wholesale contacts access</li>
+                <li>✓ Grow your business</li>
+              </ul>
+            </div>
+
+            {/* Why Choose Us */}
+            <div className="bg-white p-8 rounded-lg shadow-md text-center">
+              <div className="text-5xl mb-4">⭐</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Choose Us</h3>
+              <ul className="text-left space-y-3 text-gray-700">
+                <li>✓ Since 2001</li>
+                <li>✓ 500+ qualified technicians</li>
+                <li>✓ Nationwide coverage</li>
+                <li>✓ Trusted by salons</li>
+              </ul>
+            </div>
           </div>
-          <p className="text-center text-gray-600 mt-8">
-            Serving all 50 states - Click your state for local service information
-          </p>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="bg-blue-600 text-white py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">
-            Need Emergency Repair Service?
+      {/* State Selector Section */}
+      <section id="find-technician" className="py-16 bg-white">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Find a Technician
+            </h2>
+            <p className="text-xl text-gray-600 mb-8">
+              Select your state to view certified repair technicians, specializations, and reviews
+            </p>
+          </div>
+
+          <div className="max-w-md mx-auto">
+            <label htmlFor="state-select" className="block text-lg font-semibold text-gray-900 mb-3">
+              Choose Your State:
+            </label>
+            <select
+              id="state-select"
+              onChange={(e) => {
+                if (e.target.value) {
+                  window.location.href = `/states/${e.target.value}`;
+                }
+              }}
+              className="w-full px-6 py-4 text-lg border-2 border-blue-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white cursor-pointer shadow-sm hover:shadow-md transition"
+            >
+              <option value="">-- Select Your State --</option>
+              {statesData.map((state) => (
+                <option key={state.slug} value={state.slug}>
+                  {state.name}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Banner */}
+      <section className="py-16 bg-gradient-to-r from-orange-500 to-orange-600 text-white">
+        <div className="container mx-auto px-4 max-w-4xl text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Are You a Tanning Bed Repair Technician?
           </h2>
-          <p className="text-xl mb-8">
-            Our technicians are available 24/7 for urgent repairs
+          <p className="text-xl mb-8 text-orange-100">
+            Join our network and get FREE listings. We provide training, wholesale contacts, and resources to help you succeed.
           </p>
           <a
-            href="tel:1-800-XXX-XXXX"
-            className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition inline-block"
+            href="tel:1-800-667-9189"
+            className="inline-block bg-white hover:bg-gray-100 text-orange-600 px-10 py-4 rounded-lg text-xl font-bold shadow-lg hover:shadow-xl transition transform hover:scale-105"
           >
-            Call Now: 1-800-XXX-XXXX
+            Call 800-667-9189 to Get Listed
           </a>
+        </div>
+      </section>
+
+      {/* Equipment Brands */}
+      <section className="py-12 bg-gray-50">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <h3 className="text-2xl font-bold text-center text-gray-900 mb-6">
+            Supporting All Major Tanning Equipment Brands
+          </h3>
+          <p className="text-center text-gray-600 leading-relaxed">
+            American Quality • ACN Solart • Alisun • Alpha Sun • Atlantis • Soltron • Dr. Kerns • Dr. Muller • Electric Sun • ESB • Forever Tan • Garda Sun • HEX • Heartland • Hollywood Tan • ITS • JK Ergoline • JK Soltron • Kettler • Klafsun • Klaus • Leisure Bay • Sunliner • Mega Max • Mega Sun • Montego Bay • Ovation • Pro Sun • Puretan • Royal Sun • SCA • Shaw • Silver Solarium • Solaire • Solana • Solaris • Sonnenbraune • Sontegra • Star Power • Sun Dash • Sun Dazzler • Sun Industries • Sun Quest • Sun Star • Sun Vision • Sunal • Tan America • Tanses • Ultra Sun • UWE • Velocity • Vita Sun
+          </p>
         </div>
       </section>
     </div>

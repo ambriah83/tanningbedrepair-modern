@@ -193,11 +193,44 @@ You can compare the old HTML files to see the duplication problem firsthand.
 
 ## 🛠️ Tech Stack
 
+### Frontend
 - **Next.js 16** - React framework with file-based routing
 - **React 19** - Component-based UI library
 - **TypeScript** - Type-safe JavaScript
-- **Tailwind CSS** - Utility-first CSS framework
+- **Tailwind CSS 4** - Utility-first CSS framework
 - **Node.js** - JavaScript runtime
+
+### Backend & Infrastructure
+- **Supabase** - PostgreSQL database, authentication, and file storage
+  - Project: `mrsynnjcjfigxbtasxvp`
+  - Integrated with GitHub for automatic deployments
+  - Row Level Security (RLS) for data protection
+- **Stripe** - Subscription billing and payment processing
+- **Vercel** - Hosting and CI/CD
+
+---
+
+## 🔧 Environment Setup
+
+This project requires environment variables for Supabase and Stripe integration.
+
+### 1. Copy the example environment file:
+```bash
+cp .env.example .env.local
+```
+
+### 2. Get your Supabase credentials:
+- Go to [Supabase Dashboard](https://supabase.com/dashboard/project/mrsynnjcjfigxbtasxvp)
+- Navigate to Settings → API
+- Copy your Project URL and API keys
+
+### 3. Get your Stripe credentials:
+- Go to [Stripe Dashboard](https://dashboard.stripe.com)
+- Get your test API keys
+
+### 4. Fill in your `.env.local` file with actual values
+
+**Note:** The `.env.local` file is git-ignored for security. Never commit API keys to version control!
 
 ---
 
@@ -243,22 +276,38 @@ All offer free tiers and automatic SSL certificates!
 
 ## ✅ Project Status
 
-- ✅ Next.js project set up
-- ✅ Components created (Header, Footer)
-- ✅ Home page built
-- ✅ Dynamic state pages (template for all states)
-- ✅ Sample state data (6 states for demo)
+### Completed (Phase 0)
+- ✅ Next.js 16 + React 19 + TypeScript foundation
+- ✅ Tailwind CSS 4 styling system
+- ✅ Reusable components (Header, Footer)
+- ✅ Home page with state selector
+- ✅ Dynamic state pages (1 template → 50 states)
+- ✅ Sample state data (6 states)
 - ✅ Modern responsive design
-- ✅ Documentation complete
+- ✅ Supabase backend integrated
+- ✅ GitHub integration for Supabase
+- ✅ Sprint plan documented (SPRINT_PLAN.md)
+- ✅ Environment configuration ready
 
-### To Do:
-- [ ] Add remaining 44 states to states.json
-- [ ] Copy all images from original site
-- [ ] Create manuals page
-- [ ] Create quick-fixes page
-- [ ] Create service technicians page
-- [ ] Add contact form
-- [ ] Deploy to production
+### Sprint 1: Backend Foundation (In Progress)
+- [ ] Supabase authentication (email/password + verification)
+- [ ] Database schema (users, subscriptions, technicians, documents)
+- [ ] Stripe subscription integration ($25/month)
+- [ ] Payment webhooks
+- [ ] Protected routes middleware
+
+### Sprint 2: Core Features (Planned)
+- [ ] Troubleshooting documentation system
+- [ ] Technician directory search
+- [ ] Admin dashboard
+- [ ] Content upload interface
+
+### Sprint 3-4: Launch (Planned)
+- [ ] UX polish and testing
+- [ ] Production deployment
+- [ ] First paying customers
+
+See **SPRINT_PLAN.md** for complete 7-9 week roadmap to $250+ MRR.
 
 ---
 

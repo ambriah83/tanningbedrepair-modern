@@ -73,17 +73,17 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
                       </div>
                       <div>
                         <h3 className="text-2xl font-bold text-gray-900 mb-2">{tech.businessName}</h3>
-                        {tech.rating && (
+                        {'rating' in tech && tech.rating && (
                           <div className="flex items-center gap-2 mb-2">
                             <div className="flex items-center">
                               {[...Array(5)].map((_, i) => (
-                                <span key={i} className={`text-xl ${i < Math.floor(tech.rating) ? 'text-yellow-400' : 'text-gray-300'}`}>
+                                <span key={i} className={`text-xl ${i < Math.floor(tech.rating!) ? 'text-yellow-400' : 'text-gray-300'}`}>
                                   ★
                                 </span>
                               ))}
                             </div>
                             <span className="text-lg font-semibold text-gray-900">{tech.rating}</span>
-                            {tech.reviewCount && (
+                            {'reviewCount' in tech && tech.reviewCount && (
                               <span className="text-gray-600">({tech.reviewCount} reviews)</span>
                             )}
                           </div>
@@ -107,16 +107,21 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
                           {tech.address}
                         </p>
                       )}
-                      {tech.serviceAreas && (
+                      {'serviceAreas' in tech && tech.serviceAreas && (
                         <p className="text-gray-700">
                           <strong className="text-gray-900">🗺️ Service Areas:</strong><br />
                           {tech.serviceAreas}
                         </p>
                       )}
+                      {'contact' in tech && tech.contact && (
+                        <p className="text-sm text-gray-600 mt-3">
+                          {tech.contact}
+                        </p>
+                      )}
                     </div>
 
                     {/* Specializations */}
-                    {tech.specializations && tech.specializations.length > 0 && (
+                    {'specializations' in tech && tech.specializations && tech.specializations.length > 0 && (
                       <div>
                         <h4 className="font-bold text-gray-900 mb-3">🔧 Specializations:</h4>
                         <ul className="space-y-2">
@@ -132,7 +137,7 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
                   </div>
 
                   {/* Certifications */}
-                  {tech.certifications && (
+                  {'certifications' in tech && tech.certifications && (
                     <div className="bg-blue-50 border-l-4 border-blue-600 p-4 mb-6">
                       <p className="text-sm text-blue-900">
                         <strong>✓ Certifications:</strong> {tech.certifications}
@@ -141,7 +146,7 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
                   )}
 
                   {/* Reviews */}
-                  {tech.reviews && tech.reviews.length > 0 && (
+                  {'reviews' in tech && tech.reviews && tech.reviews.length > 0 && (
                     <div className="border-t pt-6">
                       <h4 className="font-bold text-gray-900 mb-4 text-lg">Customer Reviews:</h4>
                       <div className="space-y-4">

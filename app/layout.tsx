@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import EmailPopup from '../components/EmailPopup';
+import TextHelpBanner from '../components/TextHelpBanner';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -17,10 +19,12 @@ export default function RootLayout({
     <html lang="en">
       <body className="flex flex-col min-h-screen bg-white">
         <Header />
-        <main className="flex-grow">
+        <main className="flex-grow pb-24">
           {children}
         </main>
         <Footer />
+        <EmailPopup />
+        <TextHelpBanner />
       </body>
     </html>
   );

@@ -1,0 +1,302 @@
+{
+  "disclaimer": "This is a free directory. AQM, Inc. is not responsible for any work performed by the independent companies listed. To be added or removed, call 321-636-3434.",
+  "states": {
+    "alabama": [
+      {
+        "businessName": "Mitchell Electric Services and Repair",
+        "address": "1174 County Road 53 Lafayette, AL 36862",
+        "phone": "334-864-5234"
+      },
+      {
+        "businessName": "Rickey Franks",
+        "address": "898 Highway 80 Russellville, AL 35654",
+        "phone": "256-332-1190"
+      },
+      {
+        "businessName": "KDS LLC",
+        "address": "3927 Enon Rd Webb, AL 36376",
+        "phone": "334-796-1406"
+      }
+    ],
+    "arizona": [
+      {
+        "businessName": "Pacific Coast Tan",
+        "address": "PO Box 12773 Chandler, AZ 85248",
+        "phone": "480-586-8186"
+      },
+      {
+        "businessName": "Delta Diversified Enterprises",
+        "address": "2301 E Fifth Ave Flagstaff, AZ 86004",
+        "phone": "928-774-2516"
+      },
+      {
+        "businessName": "Aztec Electric",
+        "address": "8715 Charolais Trail Snowflake, AZ 85937",
+        "phone": "928-486-1837"
+      },
+      {
+        "businessName": "Sun State Tan Tech",
+        "address": "20783 N 83rd Ave Suite 103 PMB193 Peoria, AZ 85382",
+        "phone": "602-684-2599"
+      },
+      {
+        "businessName": "Total Electric Inc",
+        "address": "10205 W County Club Trail Peoria, AZ 85383",
+        "phone": "602-674-3618"
+      },
+      {
+        "businessName": "Royal Electric",
+        "address": "311 17th Pl Yuma, AZ 85364",
+        "phone": "928-343-4949"
+      },
+      {
+        "businessName": "Monte Gegenheimer",
+        "address": "20086 N Donithan Way Maricopa, AZ 85138",
+        "phone": "623-293-0248"
+      }
+    ],
+    "arkansas": [
+      {
+        "businessName": "Burton Pools & Spa",
+        "address": "6121 Zero Street Fort Smith, AR 72903",
+        "phone": "479-648-3483"
+      }
+    ],
+    "california": [
+      {
+        "businessName": "Sun Spots / Handyman Professionals",
+        "address": "22724 Rio Alto Dr Cottonwood, CA 96022",
+        "phone": "530-347-2374"
+      },
+      {
+        "businessName": "So Cal Technicians",
+        "address": "21143 Hawthorne Blvd Suite 202 Torrance, CA 90503",
+        "phone": "310-418-1519"
+      }
+    ],
+    "colorado": [
+      {
+        "businessName": "Mile High Tan Tech",
+        "contact": "Hagen Holmes, talk/text 303-960-7515",
+        "address": "6350 Depew Ct Arvada, CO 80003",
+        "phone": "866-435-1859"
+      },
+      {
+        "businessName": "Wells Works LLC",
+        "address": "2774 W 1st Ave Denver, CO 80219",
+        "phone": "303-960-7555"
+      },
+      {
+        "businessName": "Midnight Sun",
+        "address": "2465 Dawn Ct Loveland, CO 80537",
+        "phone": "970-567-3278"
+      }
+    ],
+    "delaware": [
+      {
+        "businessName": "First Protect",
+        "address": "207 Gordy Place New Castle, DE 19720",
+        "phone": "302-893-1602"
+      }
+    ],
+    "florida": [
+      {
+        "businessName": "Tan-Tek Inc",
+        "address": "22 Royal Palm Way Unit 202 Boca Raton, FL 33432",
+        "phone": "561-568-7660"
+      },
+      {
+        "businessName": "Pats Electric",
+        "address": "114 Waukesha St Bonifay, FL 32425",
+        "phone": "850-849-4616"
+      },
+      {
+        "businessName": "Bob's Salon Maintenance",
+        "address": "2846 Davell Rd Jacksonville, FL 32254",
+        "phone": "904-703-7869"
+      },
+      {
+        "businessName": "MTR Tech",
+        "address": "209 Anne Marie Cir Lakeland, FL 33813",
+        "phone": "863-397-0811"
+      },
+      {
+        "businessName": "UVA Technologies",
+        "address": "9904 120th Court N Seminole, FL 33774",
+        "phone": "727-391-2510"
+      },
+      {
+        "businessName": "Sunsational Services",
+        "address": "909 South Forest Creek Dr St Augustine, FL 32092",
+        "phone": "904-819-1959"
+      },
+      {
+        "businessName": "Florida Sun Systems",
+        "address": "3434 Lithia Pinecrest Rd Valrico, FL 33594",
+        "phone": "813-425-4976"
+      }
+    ],
+    "georgia": [
+      {
+        "businessName": "Southern States Salon Service",
+        "address": "805 Clarence Edwards Road Bethlehem, GA 30620",
+        "phone": "770-868-5702"
+      },
+      {
+        "businessName": "Fusion",
+        "address": "1100 E Walnut Ave Suite 6 Dalton, GA 30721",
+        "phone": "706-278-1092"
+      },
+      {
+        "businessName": "AAA Wolff Tanning",
+        "address": "201-C International Pkwy Dallas, GA 30157",
+        "phone": "770-505-4006"
+      },
+      {
+        "businessName": "Southern Tan Systems",
+        "address": "306 W Broad St Doerun, GA 31744",
+        "phone": "800-525-7980"
+      },
+      {
+        "businessName": "Sunbelt Tanning Service Inc",
+        "address": "706 N Green St Doerun, GA 31744",
+        "phone": "229-344-7326"
+      },
+      {
+        "businessName": "Doyle Windham",
+        "address": "933 Duckhead Rd Hephzibah, GA 30815",
+        "phone": "706-726-7516"
+      },
+      {
+        "businessName": "H.E. Beck Co",
+        "address": "5446 Tally Green Dr Marietta, GA 30068",
+        "phone": "678-967-4601"
+      },
+      {
+        "businessName": "Rutherford Electric",
+        "address": "Powder Springs, GA",
+        "phone": "770-943-7707"
+      },
+      {
+        "businessName": "Pinnacle Electric LLC",
+        "address": "578 Meadowlark Dr Ringgold, GA 30736",
+        "phone": "706-965-4057"
+      },
+      {
+        "businessName": "Suntan Repair",
+        "address": "135 Ithica Gin Rd Villa Rica, GA 30180",
+        "phone": "770-459-9190"
+      }
+    ],
+    "idaho": [
+      {
+        "businessName": "VIP Spa Maintenance",
+        "address": "18401 Pride Ln Caldwell, ID 83607",
+        "phone": "208-794-0704"
+      },
+      {
+        "businessName": "Quality Electric Service",
+        "address": "129 W 18th Ave Lewiston, ID 83501",
+        "phone": "208-746-1400"
+      },
+      {
+        "businessName": "Superior Services LLC",
+        "address": "1200 S Florida Place Nampa, ID 83686",
+        "phone": "208-409-6589"
+      }
+    ],
+    "illinois": [
+      {
+        "businessName": "UV Systems Service",
+        "address": "301 Aladdin Ave Alton, IL 62002",
+        "phone": "618-971-6300"
+      },
+      {
+        "businessName": "Novatan",
+        "address": "209 E South Cerro Gordo, IL 61818",
+        "phone": "217-763-9016"
+      },
+      {
+        "businessName": "Pro Techmation",
+        "address": "370 E Prairie Street Crystal Lake, IL 60039",
+        "phone": "815-459-5909"
+      },
+      {
+        "businessName": "Weger Heating & Air Inc",
+        "address": "Route 1 Box 215A Lawrenceville, IL 62439",
+        "phone": "618-943-4100"
+      },
+      {
+        "businessName": "LA TAN",
+        "address": "3775 Arthur Ave Lincolnwood, IL 60712",
+        "phone": "847-568-0022"
+      },
+      {
+        "businessName": "Randall Gordon",
+        "address": "13474 Sapp Rd Manito, IL 61546",
+        "phone": "309-267-1760"
+      },
+      {
+        "businessName": "Kison INC",
+        "address": "34 Augusta Dr Streamwood, IL 60107",
+        "phone": "312-217-5877"
+      },
+      {
+        "businessName": "Chris Austin",
+        "contact": "Cell 847-636-7000, Website www.suntowers.com, Suntechnologies Inc."
+      },
+      {
+        "businessName": "ITTServices",
+        "address": "Kalamazoo, MI",
+        "phone": "1-800-579-6808 or 269-329-4617"
+      }
+    ],
+    "indiana": [
+      {
+        "businessName": "APS Investments",
+        "address": "6250 Red Alder Dr Avon, IN 46123",
+        "phone": "317-750-6229"
+      },
+      {
+        "businessName": "Splash Pool & Spa",
+        "address": "7270 E US Hwy 36 #103 Avon, IN 46123",
+        "phone": "317-272-7408"
+      },
+      {
+        "businessName": "Vortex",
+        "address": "9126 N State Rd 37 E Elwood, IN 46036",
+        "phone": "765-425-4122"
+      },
+      {
+        "businessName": "Studio Tan",
+        "address": "918 Woodland Plaza Run Suite D Fort Wayne, IN 46825",
+        "phone": "260-969-2292"
+      },
+      {
+        "businessName": "Lloyd Electric LLC",
+        "address": "805 W School St Francisco, IN 47649",
+        "phone": "812-782-9443"
+      },
+      {
+        "businessName": "Roy Skiles",
+        "address": "2600 S US HWY 31 Franklin, IN 46131",
+        "phone": "317-370-4298"
+      },
+      {
+        "businessName": "Larry Wells",
+        "address": "5411 Joyce Ave Ft Wayne, IN 46818",
+        "phone": "260-489-5842"
+      },
+      {
+        "businessName": "Myers Repair Service",
+        "address": "1028 S Wabash Ave Kokomo, IN 46902",
+        "phone": "765-459-0973"
+      },
+      {
+        "businessName": "ITTServices",
+        "address": "Kalamazoo, MI",
+        "phone": "1-800-579-6808 or 269-329-4617"
+      }
+    ]
+  }
+}

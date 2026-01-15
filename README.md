@@ -1,5 +1,7 @@
 # Tanning Bed Repair - Modern Next.js Version
 
+🌐 **Live Site:** https://tanningbedrepair-modern.vercel.app/
+
 ## 📋 Project Overview
 
 This is a modern rebuild of tanningbedrepair.com using Next.js and React. This demo showcases how modern web frameworks eliminate code duplication and make websites easier to maintain.
@@ -71,8 +73,8 @@ tanningbedrepair-modern/
    ```
 
 4. **Open your browser:**
-   - Go to: http://localhost:3000
-   - You'll see the modern website running!
+   - Local: http://localhost:3000
+   - Production: https://tanningbedrepair-modern.vercel.app/
 
 ### Available Commands
 
@@ -255,14 +257,18 @@ cp .env.example .env.local
 4. **Add contact form** functionality
 5. **Set up domain** and deploy to production
 
-### To Deploy (When Ready):
+### Deployment
 
-Popular hosting options:
-- **Vercel** (recommended - built by Next.js creators)
-- **Netlify**
-- **AWS Amplify**
+**Currently Deployed on Vercel:**
+- 🌐 Live URL: https://tanningbedrepair-modern.vercel.app/
+- ✅ Automatic deployments from GitHub
+- ✅ SSL certificate included
+- ✅ CDN and edge optimization enabled
 
-All offer free tiers and automatic SSL certificates!
+**To Deploy Updates:**
+1. Push changes to GitHub repository
+2. Vercel automatically detects and deploys changes
+3. Production updates go live in ~2 minutes
 
 ---
 
@@ -276,18 +282,21 @@ All offer free tiers and automatic SSL certificates!
 
 ## ✅ Project Status
 
-### Completed (Phase 0)
+### Completed
 - ✅ Next.js 16 + React 19 + TypeScript foundation
 - ✅ Tailwind CSS 4 styling system
-- ✅ Reusable components (Header, Footer)
-- ✅ Home page with state selector
-- ✅ Dynamic state pages (1 template → 50 states)
-- ✅ Sample state data (6 states)
+- ✅ Full navigation menu (Services, Used Equipment, About, Training)
 - ✅ Modern responsive design
-- ✅ Supabase backend integrated
-- ✅ GitHub integration for Supabase
-- ✅ Sprint plan documented (SPRINT_PLAN.md)
-- ✅ Environment configuration ready
+- ✅ **164 technicians imported** across 40 states
+- ✅ Searchable technician directory (`/directory`)
+- ✅ Individual state pages (all 50 states)
+- ✅ Email signup popup
+- ✅ Text help banner
+- ✅ Service pages (Repair, Troubleshooting, Install/Relocation)
+- ✅ Used Equipment page
+- ✅ About Us page
+- ✅ Training page
+- ✅ **Deployed to Vercel**: https://tanningbedrepair-modern.vercel.app/
 
 ### Sprint 1: Backend Foundation (In Progress)
 - [ ] Supabase authentication (email/password + verification)

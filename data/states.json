@@ -2,73 +2,1155 @@
   {
     "name": "Alabama",
     "slug": "alabama",
-    "description": "Find tanning bed repair technicians in Alabama including Birmingham, Montgomery, Mobile, and Huntsville.",
-    "technicians": []
+    "description": "Find professional tanning bed repair technicians in Alabama.",
+    "technicians": [
+      {
+        "businessName": "Mitchell Electric Services and Repair",
+        "address": "1174 County Road 53 Lafayette, AL 36862",
+        "phone": "334-864-5234"
+      },
+      {
+        "businessName": "Rickey Franks",
+        "address": "898 Highway 80 Russellville, AL 35654",
+        "phone": "256-332-1190"
+      },
+      {
+        "businessName": "KDS LLC",
+        "address": "3927 Enon Rd Webb, AL 36376",
+        "phone": "334-796-1406"
+      }
+    ]
   },
   {
     "name": "Alaska",
     "slug": "alaska",
-    "description": "Find tanning bed repair technicians in Alaska including Anchorage, Fairbanks, and Juneau.",
+    "description": "Find professional tanning bed repair technicians in Alaska.",
     "technicians": []
   },
   {
     "name": "Arizona",
     "slug": "arizona",
-    "description": "Find tanning bed repair technicians in Arizona including Phoenix, Tucson, and Mesa.",
-    "technicians": []
+    "description": "Find professional tanning bed repair technicians in Arizona.",
+    "technicians": [
+      {
+        "businessName": "Pacific Coast Tan",
+        "address": "PO Box 12773 Chandler, AZ 85248",
+        "phone": "480-586-8186"
+      },
+      {
+        "businessName": "Delta Diversified Enterprises",
+        "address": "2301 E Fifth Ave Flagstaff, AZ 86004",
+        "phone": "928-774-2516"
+      },
+      {
+        "businessName": "Aztec Electric",
+        "address": "8715 Charolais Trail Snowflake, AZ 85937",
+        "phone": "928-486-1837"
+      },
+      {
+        "businessName": "Sun State Tan Tech",
+        "address": "20783 N 83rd Ave Suite 103 PMB193 Peoria, AZ 85382",
+        "phone": "602-684-2599"
+      },
+      {
+        "businessName": "Total Electric Inc",
+        "address": "10205 W County Club Trail Peoria, AZ 85383",
+        "phone": "602-674-3618"
+      },
+      {
+        "businessName": "Royal Electric",
+        "address": "311 17th Pl Yuma, AZ 85364",
+        "phone": "928-343-4949"
+      },
+      {
+        "businessName": "Monte Gegenheimer",
+        "address": "20086 N Donithan Way Maricopa, AZ 85138",
+        "phone": "623-293-0248"
+      }
+    ]
+  },
+  {
+    "name": "Arkansas",
+    "slug": "arkansas",
+    "description": "Find professional tanning bed repair technicians in Arkansas.",
+    "technicians": [
+      {
+        "businessName": "Burton Pools & Spa",
+        "address": "6121 Zero Street Fort Smith, AR 72903",
+        "phone": "479-648-3483"
+      }
+    ]
   },
   {
     "name": "California",
     "slug": "california",
-    "description": "Find tanning bed repair technicians in California including Los Angeles, San Francisco, San Diego, and Sacramento.",
+    "description": "Find professional tanning bed repair technicians in California.",
+    "technicians": [
+      {
+        "businessName": "Sun Spots / Handyman Professionals",
+        "address": "22724 Rio Alto Dr Cottonwood, CA 96022",
+        "phone": "530-347-2374"
+      },
+      {
+        "businessName": "So Cal Technicians",
+        "address": "21143 Hawthorne Blvd Suite 202 Torrance, CA 90503",
+        "phone": "310-418-1519"
+      }
+    ]
+  },
+  {
+    "name": "Colorado",
+    "slug": "colorado",
+    "description": "Find professional tanning bed repair technicians in Colorado.",
+    "technicians": [
+      {
+        "businessName": "Mile High Tan Tech",
+        "address": "Hagen Holmes, talk/text",
+        "phone": "303-960-7515",
+        "contact": "6350 Depew Ct Arvada, CO 80003 866-435-1859"
+      },
+      {
+        "businessName": "Wells Works LLC",
+        "address": "2774 W 1st Ave Denver, CO 80219",
+        "phone": "303-960-7555"
+      },
+      {
+        "businessName": "Midnight Sun",
+        "address": "2465 Dawn Ct Loveland, CO 80537",
+        "phone": "970-567-3278"
+      }
+    ]
+  },
+  {
+    "name": "Connecticut",
+    "slug": "connecticut",
+    "description": "Find professional tanning bed repair technicians in Connecticut.",
     "technicians": []
+  },
+  {
+    "name": "Delaware",
+    "slug": "delaware",
+    "description": "Find professional tanning bed repair technicians in Delaware.",
+    "technicians": [
+      {
+        "businessName": "First Protect",
+        "address": "207 Gordy Place New Castle, DE 19720",
+        "phone": "302-893-1602"
+      }
+    ]
   },
   {
     "name": "Florida",
     "slug": "florida",
-    "description": "Find tanning bed repair technicians in Florida including Orlando, Tampa, Jacksonville, and Miami.",
+    "description": "Find professional tanning bed repair technicians in Florida.",
     "technicians": [
       {
-        "businessName": "Tanning Services of Florida",
-        "phone": "813-447-5736",
-        "address": "2609 E 98th Ave, Tampa, FL 33612",
-        "serviceAreas": "Serving Tampa, Lakeland, St Petersburg, Clearwater areas daily. Will travel to Miami, Jacksonville, Tallahassee, Alabama, Georgia for installations",
-        "certifications": "Certified Mystic Tan and Magic Tan Versa Spa Technician. Experienced with HydroMassage, AquaMassage and other spa type equipment",
-        "specializations": [
-          "Tanning Bed Repair & Maintenance",
-          "Spray Tan Booth Service (Mystic Tan, Magic Tan VersaSpa)",
-          "Automated Spa Equipment (HydroMassage, AquaMassage)",
-          "Installation Services"
-        ],
-        "rating": 4.8,
-        "reviewCount": 47,
-        "reviews": [
-          {
-            "author": "Sarah M.",
-            "rating": 5,
-            "date": "2024-10-15",
-            "text": "Fast, professional service! Fixed our Mystic Tan booth same day. Highly recommend!"
-          },
-          {
-            "author": "Mike T.",
-            "rating": 5,
-            "date": "2024-09-22",
-            "text": "Very knowledgeable technician. Explained everything clearly and pricing was fair."
-          },
-          {
-            "author": "Lisa R.",
-            "rating": 4,
-            "date": "2024-08-10",
-            "text": "Great service, arrived on time and got our tanning bed working again quickly."
-          }
-        ]
+        "businessName": "Tan-Tek Inc",
+        "address": "22 Royal Palm Way Unit 202 Boca Raton, FL 33432",
+        "phone": "561-568-7660"
+      },
+      {
+        "businessName": "Pats Electric",
+        "address": "114 Waukesha St Bonifay, FL 32425",
+        "phone": "850-849-4616"
+      },
+      {
+        "businessName": "Bob's Salon Maintenance",
+        "address": "2846 Davell Rd Jacksonville, FL 32254",
+        "phone": "904-703-7869"
+      },
+      {
+        "businessName": "MTR Tech",
+        "address": "209 Anne Marie Cir Lakeland, FL 33813",
+        "phone": "863-397-0811"
+      },
+      {
+        "businessName": "UVA Technologies",
+        "address": "9904 120th Court N Seminole, FL 33774",
+        "phone": "727-391-2510"
+      },
+      {
+        "businessName": "Sunsational Services",
+        "address": "909 South Forest Creek Dr St Augustine, FL 32092",
+        "phone": "904-819-1959"
+      },
+      {
+        "businessName": "Florida Sun Systems",
+        "address": "3434 Lithia Pinecrest Rd Valrico, FL 33594",
+        "phone": "813-425-4976"
+      }
+    ]
+  },
+  {
+    "name": "Georgia",
+    "slug": "georgia",
+    "description": "Find professional tanning bed repair technicians in Georgia.",
+    "technicians": [
+      {
+        "businessName": "Southern States Salon Service",
+        "address": "805 Clarence Edwards Road Bethlehem, GA 30620",
+        "phone": "770-868-5702"
+      },
+      {
+        "businessName": "Fusion",
+        "address": "1100 E Walnut Ave Suite 6 Dalton, GA 30721",
+        "phone": "706-278-1092"
+      },
+      {
+        "businessName": "AAA Wolff Tanning",
+        "address": "201-C International Pkwy Dallas, GA 30157",
+        "phone": "770-505-4006"
+      },
+      {
+        "businessName": "Southern Tan Systems",
+        "address": "306 W Broad St Doerun, GA 31744",
+        "phone": "800-525-7980"
+      },
+      {
+        "businessName": "Sunbelt Tanning Service Inc",
+        "address": "706 N Green St Doerun, GA 31744",
+        "phone": "229-344-7326"
+      },
+      {
+        "businessName": "Doyle Windham",
+        "address": "933 Duckhead Rd Hephzibah, GA 30815",
+        "phone": "706-726-7516"
+      },
+      {
+        "businessName": "H.E. Beck Co",
+        "address": "5446 Tally Green Dr Marietta, GA 30068",
+        "phone": "678-967-4601"
+      },
+      {
+        "businessName": "Rutherford Electric",
+        "address": "Powder Springs, GA",
+        "phone": "770-943-7707"
+      },
+      {
+        "businessName": "Pinnacle Electric LLC",
+        "address": "578 Meadowlark Dr Ringgold, GA 30736",
+        "phone": "706-965-4057"
+      },
+      {
+        "businessName": "Suntan Repair",
+        "address": "135 Ithica Gin Rd Villa Rica, GA 30180",
+        "phone": "770-459-9190"
+      }
+    ]
+  },
+  {
+    "name": "Hawaii",
+    "slug": "hawaii",
+    "description": "Find professional tanning bed repair technicians in Hawaii.",
+    "technicians": []
+  },
+  {
+    "name": "Idaho",
+    "slug": "idaho",
+    "description": "Find professional tanning bed repair technicians in Idaho.",
+    "technicians": [
+      {
+        "businessName": "VIP Spa Maintenance",
+        "address": "18401 Pride Ln Caldwell, ID 83607",
+        "phone": "208-794-0704"
+      },
+      {
+        "businessName": "Quality Electric Service",
+        "address": "129 W 18th Ave Lewiston, ID 83501",
+        "phone": "208-746-1400"
+      },
+      {
+        "businessName": "Superior Services LLC",
+        "address": "1200 S Florida Place Nampa, ID 83686",
+        "phone": "208-409-6589"
+      }
+    ]
+  },
+  {
+    "name": "Illinois",
+    "slug": "illinois",
+    "description": "Find professional tanning bed repair technicians in Illinois.",
+    "technicians": [
+      {
+        "businessName": "UV Systems Service",
+        "address": "301 Aladdin Ave Alton, IL 62002",
+        "phone": "618-971-6300"
+      },
+      {
+        "businessName": "Novatan",
+        "address": "209 E South Cerro Gordo, IL 61818",
+        "phone": "217-763-9016"
+      },
+      {
+        "businessName": "Pro Techmation",
+        "address": "370 E Prairie Street Crystal Lake, IL 60039",
+        "phone": "815-459-5909"
+      },
+      {
+        "businessName": "Weger Heating & Air Inc",
+        "address": "Route 1 Box 215A Lawrenceville, IL 62439",
+        "phone": "618-943-4100"
+      },
+      {
+        "businessName": "LA TAN",
+        "address": "3775 Arthur Ave Lincolnwood, IL 60712",
+        "phone": "847-568-0022"
+      },
+      {
+        "businessName": "Randall Gordon",
+        "address": "13474 Sapp Rd Manito, IL 61546",
+        "phone": "309-267-1760"
+      },
+      {
+        "businessName": "Kison INC",
+        "address": "34 Augusta Dr Streamwood, IL 60107",
+        "phone": "312-217-5877"
+      },
+      {
+        "businessName": "Chris Austin",
+        "address": "Cell",
+        "phone": "847-636-7000",
+        "contact": ", Website www.suntowers.com, Suntechnologies Inc."
+      },
+      {
+        "businessName": "ITTServices, Kalamazoo, MI.1-800-579-6808 or 269-329-4617"
+      }
+    ]
+  },
+  {
+    "name": "Indiana",
+    "slug": "indiana",
+    "description": "Find professional tanning bed repair technicians in Indiana.",
+    "technicians": [
+      {
+        "businessName": "APS Investments",
+        "address": "6250 Red Alder Dr Avon, IN 46123",
+        "phone": "317-750-6229"
+      },
+      {
+        "businessName": "Splash Pool & Spa",
+        "address": "7270 E US Hwy 36 #103 Avon, IN 46123",
+        "phone": "317-272-7408"
+      },
+      {
+        "businessName": "Vortex",
+        "address": "9126 N State Rd 37 E Elwood, IN 46036",
+        "phone": "765-425-4122"
+      },
+      {
+        "businessName": "Studio Tan",
+        "address": "918 Woodland Plaza Run Suite D Fort Wayne, IN 46825",
+        "phone": "260-969-2292"
+      },
+      {
+        "businessName": "Lloyd Electric LLC",
+        "address": "805 W School St Francisco, IN 47649",
+        "phone": "812-782-9443"
+      },
+      {
+        "businessName": "Roy Skiles",
+        "address": "2600 S US HWY 31 Franklin, IN 46131",
+        "phone": "317-370-4298"
+      },
+      {
+        "businessName": "Larry Wells",
+        "address": "5411 Joyce Ave Ft Wayne, IN 46818",
+        "phone": "260-489-5842"
+      },
+      {
+        "businessName": "Myers Repair Service",
+        "address": "1028 S Wabash Ave Kokomo, IN 46902",
+        "phone": "765-459-0973"
+      },
+      {
+        "businessName": "ITTServices, Kalamazoo, MI.1-800-579-6808 or 269-329-4617"
+      }
+    ]
+  },
+  {
+    "name": "Iowa",
+    "slug": "iowa",
+    "description": "Find professional tanning bed repair technicians in Iowa.",
+    "technicians": [
+      {
+        "businessName": "Ultimate Tanning",
+        "address": "409 N 3rd St Red Oak, IA 51566",
+        "phone": "712-623-2042"
+      },
+      {
+        "businessName": "Enterprise Electric",
+        "address": "915 8th St Boone, IA 50036",
+        "phone": "515-432-7162"
+      },
+      {
+        "businessName": "TED Electric",
+        "address": "2004 Virgil St Cedar Falls, IA 50613",
+        "phone": "319-266-2449"
+      },
+      {
+        "businessName": "Woodall Electric",
+        "address": "112 Union St Cherokee, IA 51012",
+        "phone": "712-225-2840"
+      },
+      {
+        "businessName": "Bouska Electric",
+        "address": "4903 430th Ave Curlew, IA 50527",
+        "phone": "712-845-4303"
+      },
+      {
+        "businessName": "Esco Electric",
+        "address": "4306 Naples Ave SW Iowa City, IA 52240",
+        "phone": "319-377-6655"
+      }
+    ]
+  },
+  {
+    "name": "Kansas",
+    "slug": "kansas",
+    "description": "Find professional tanning bed repair technicians in Kansas.",
+    "technicians": [
+      {
+        "businessName": "Lynn Electric",
+        "address": "1849 E 1450 Rd Lawrence, KS 66044",
+        "phone": "785-843-5079"
+      },
+      {
+        "businessName": "Executive Tan",
+        "address": "7777 E 21ST North Suite 170 Whitcha, KS 67206",
+        "phone": "316-682-7777"
+      },
+      {
+        "businessName": "Extreme Tanning",
+        "address": "1218 S Rock Rd Wichita, KS 67207",
+        "phone": "316-712-0190"
+      }
+    ]
+  },
+  {
+    "name": "Kentucky",
+    "slug": "kentucky",
+    "description": "Find professional tanning bed repair technicians in Kentucky.",
+    "technicians": [
+      {
+        "businessName": "Paradise Tans",
+        "address": "518 W Jefferson St Berea, KY 40403",
+        "phone": "859-509-0773"
+      },
+      {
+        "businessName": "C & C Tan Shack Inc",
+        "address": "610 S Columbia Ave Campbellsville, KY 42718",
+        "phone": "270-465-8189"
+      },
+      {
+        "businessName": "B & M Enterprises Inc",
+        "address": "2001 S Main St Corbin, KY 40701",
+        "phone": "888-575-9484"
+      },
+      {
+        "businessName": "E-Z Inc",
+        "address": "107 Shane Drive Glasgow, KY 42141",
+        "phone": "270-651-5055"
+      },
+      {
+        "businessName": "Multi-Service Company",
+        "address": "251 Mermie Rd Hardin, KY 42048",
+        "phone": "270-354-9908"
+      },
+      {
+        "businessName": "All Around Tanning Dist",
+        "address": "4325 Winston Ave Latonia, KY 41015",
+        "phone": "859-491-8555"
+      },
+      {
+        "businessName": "Tropics II Sales & Service",
+        "address": "901 Coldwater Road Murray, KY 42071",
+        "phone": "270-753-4299"
+      },
+      {
+        "businessName": "Gentry's Marketing",
+        "address": "151 Russell Drive Russell Springs, KY 42642",
+        "phone": "270-866-2305"
+      }
+    ]
+  },
+  {
+    "name": "Louisiana",
+    "slug": "louisiana",
+    "description": "Find professional tanning bed repair technicians in Louisiana.",
+    "technicians": [
+      {
+        "businessName": "Deep South Technical Services Inc",
+        "address": "454 Galatas Rd Madisonville, LA 70447",
+        "phone": "985-845-1161"
+      },
+      {
+        "businessName": "Telectric Engineering and Construction",
+        "address": "19 Baum Rd Pineville, LA 71360",
+        "phone": "318-640-3773"
+      }
+    ]
+  },
+  {
+    "name": "Maine",
+    "slug": "maine",
+    "description": "Find professional tanning bed repair technicians in Maine.",
+    "technicians": [
+      {
+        "businessName": "Fix Rays",
+        "address": "480 Elm St Newport, ME 4953",
+        "phone": "207-570-0514"
+      },
+      {
+        "businessName": "Eric's Electric",
+        "address": "RR 1 Box 505 West Rd Monticello, ME 4760",
+        "phone": "207-538-0986"
+      }
+    ]
+  },
+  {
+    "name": "Maryland",
+    "slug": "maryland",
+    "description": "Find professional tanning bed repair technicians in Maryland.",
+    "technicians": [
+      {
+        "businessName": "Sunbed Service & Supply Inc",
+        "address": "4315 Ebenezer Rd Baltimore, MD 21236",
+        "phone": "410-529-0515"
+      },
+      {
+        "businessName": "Salon Solutions Inc",
+        "address": "14217 Longnecker Rd Reisterstown, MD 21136",
+        "phone": "866-373-5700"
+      }
+    ]
+  },
+  {
+    "name": "Massachusetts",
+    "slug": "massachusetts",
+    "description": "Find professional tanning bed repair technicians in Massachusetts.",
+    "technicians": [
+      {
+        "businessName": "NETSCO",
+        "address": "614 N Main Mansfield, MA 2048",
+        "phone": "508-339-4299"
+      }
+    ]
+  },
+  {
+    "name": "Michigan",
+    "slug": "michigan",
+    "description": "Find professional tanning bed repair technicians in Michigan.",
+    "technicians": [
+      {
+        "businessName": "Complete Tanning Outfitters",
+        "address": "3407 S Genessee Burton, MI 48519",
+        "phone": "800-895-4958"
+      },
+      {
+        "businessName": "Thornview Electric",
+        "address": "4159 Brockton Dr SE Suite A Grand Rapids, MI 49316",
+        "phone": "616-698-7978"
+      },
+      {
+        "businessName": "The A Team of Michigan LLC",
+        "address": "48573 Declaration Macomb, MI 48044",
+        "phone": "586-914-1390"
+      },
+      {
+        "businessName": "Michigan Sun Services",
+        "address": "711 S Arnold St Mt Pleasant, MI 48858",
+        "phone": "989-289-4585"
+      },
+      {
+        "businessName": "ITT Services",
+        "address": "1755 Valleywood Ct #4 Portage, MI 49024",
+        "phone": "800-579-6808"
+      },
+      {
+        "businessName": "Sun Systems and Service Inc",
+        "address": "10371 Troy Ave Oak Park, MI 48237",
+        "phone": "248-545-5577"
+      },
+      {
+        "businessName": "Phillip Selders",
+        "address": "9633 Sil St Taylor, MI 48180",
+        "phone": "313-492-1727"
+      },
+      {
+        "businessName": "Alpine Electric",
+        "address": "1670 Barlow Rd Traverse City, MI 49686",
+        "phone": "231-947-3600"
+      },
+      {
+        "businessName": "ITTServices, Kalamazoo, MI.1-800-579-6808 or 269-329-4617"
+      }
+    ]
+  },
+  {
+    "name": "Minnesota",
+    "slug": "minnesota",
+    "description": "Find professional tanning bed repair technicians in Minnesota.",
+    "technicians": [
+      {
+        "businessName": "M & N Diversified",
+        "address": "16676 Valley Dr NW Andover, MN 55304",
+        "phone": "763-576-0072"
+      },
+      {
+        "businessName": "Wiebolt Electric Inc",
+        "address": "3481 Laurel Dr NW Bemidji, MN 56601",
+        "phone": "218-444-8661"
+      },
+      {
+        "businessName": "Solar Equation Inc",
+        "address": "20602 Monterey Prior Lake, MN 55378",
+        "phone": "952-736-0808"
+      },
+      {
+        "businessName": "Vaith Development",
+        "address": "1514 Como Ave SE Minneapolis, MN 55414",
+        "phone": "651-210-7314"
+      },
+      {
+        "businessName": "On Call Services",
+        "address": "27928 145th St Zimmerman, MN 55398",
+        "phone": "800-549-5837"
+      }
+    ]
+  },
+  {
+    "name": "Mississippi",
+    "slug": "mississippi",
+    "description": "Find professional tanning bed repair technicians in Mississippi.",
+    "technicians": [
+      {
+        "businessName": "Sunray Tanning Products",
+        "address": "5791 Terry Rd Suite 205 Jackson, MS 39272",
+        "phone": "601-372-9101"
+      },
+      {
+        "businessName": "J R Brinar Consulting",
+        "address": "5447 State Hwy 604 Pearlington, MS 39572",
+        "phone": "702-768-2530"
+      },
+      {
+        "businessName": "Tanning Source of Mississippi",
+        "address": "PO Box 167 1320 Wooten Rd Nesbit, MS 38651",
+        "phone": "901-619-1839"
+      }
+    ]
+  },
+  {
+    "name": "Missouri",
+    "slug": "missouri",
+    "description": "Find professional tanning bed repair technicians in Missouri.",
+    "technicians": [
+      {
+        "businessName": "Tanning Equipment Services",
+        "address": "2634 D HWY 109 Wildwood, MO 63040",
+        "phone": "636-273-9822"
+      },
+      {
+        "businessName": "Webb Electric",
+        "address": "1022 Broadway Lamar, MO 64759",
+        "phone": "800-427-5419"
+      },
+      {
+        "businessName": "Ed Woods",
+        "address": "120 SE Bristol Lee Summitt, MO 64063",
+        "phone": "816-525-5804"
+      },
+      {
+        "businessName": "Sycamore Construction",
+        "address": "HC1 Box 1650 Sycamore, MO 65760",
+        "phone": "417-261-2254"
+      }
+    ]
+  },
+  {
+    "name": "Montana",
+    "slug": "montana",
+    "description": "Find professional tanning bed repair technicians in Montana.",
+    "technicians": [
+      {
+        "businessName": "Ducello's Appliance Repair",
+        "address": "112 • S Broadway Belgrade, MT 59714",
+        "phone": "406-587-9112"
+      },
+      {
+        "businessName": "Action Electric Inc",
+        "address": "1701 Montana Ave Billings, MT 59101",
+        "phone": "406-245-9551"
+      },
+      {
+        "businessName": "Tri-County Sheet Metal",
+        "address": "118 E Geyser St Livingston, MT 59047",
+        "phone": "406-222-6636"
+      }
+    ]
+  },
+  {
+    "name": "Nebraska",
+    "slug": "nebraska",
+    "description": "Find professional tanning bed repair technicians in Nebraska.",
+    "technicians": [
+      {
+        "businessName": "Prema Wiring Services",
+        "address": "Po Box 677 Alliance, NE 69301",
+        "phone": "308-762-1311"
+      },
+      {
+        "businessName": "Sun Shots",
+        "address": "2225 Thurston Circle Bellevue, NE 68005",
+        "phone": "402-292-3949"
+      },
+      {
+        "businessName": "Vierregger Electric",
+        "address": "4407 S 139th St Omaha, NE 68137",
+        "phone": "402-896-8008"
+      },
+      {
+        "businessName": "Snell Electric",
+        "address": "2220 W Front St PO Box 629 North Platte, NE 69103",
+        "phone": "308-532-6870"
+      }
+    ]
+  },
+  {
+    "name": "Nevada",
+    "slug": "nevada",
+    "description": "Find professional tanning bed repair technicians in Nevada.",
+    "technicians": [
+      {
+        "businessName": "Sun Spot",
+        "address": "559 S Saliman Rd Suite 103 Carson City, NV 89701",
+        "phone": "775-883-6070"
+      },
+      {
+        "businessName": "Stephen Mehall",
+        "address": "1889 Apricot Court Henderson, NV 89014",
+        "phone": "702-581-5913"
+      },
+      {
+        "businessName": "J & J Sunbed Supplies",
+        "address": "PO Box 70924 Reno, NV 89570",
+        "phone": "775-829-8833"
+      },
+      {
+        "businessName": "TBR Resources",
+        "address": "6873 Carrera Dr Las Vegas, NV 89103",
+        "phone": "702-326-5561"
+      }
+    ]
+  },
+  {
+    "name": "New Hampshire",
+    "slug": "new-hampshire",
+    "description": "Find professional tanning bed repair technicians in New Hampshire.",
+    "technicians": [
+      {
+        "businessName": "The Salon Maintenance Company",
+        "address": "275 Bridge St Manchester, NH 3104",
+        "phone": "603-626-4942"
+      }
+    ]
+  },
+  {
+    "name": "New Jersey",
+    "slug": "new-jersey",
+    "description": "Find professional tanning bed repair technicians in New Jersey.",
+    "technicians": [
+      {
+        "businessName": "Summer Breeze LLC",
+        "address": "1001 Lower Landing Rd Suite 505 Blackwood, NJ 8012",
+        "phone": "856-232-4525"
+      }
+    ]
+  },
+  {
+    "name": "New Mexico",
+    "slug": "new-mexico",
+    "description": "Find professional tanning bed repair technicians in New Mexico.",
+    "technicians": [
+      {
+        "businessName": "Kenco Electric",
+        "address": "722 S Sunset Ave Roswell, NM 88203",
+        "phone": "505-625-9027"
+      }
+    ]
+  },
+  {
+    "name": "New York",
+    "slug": "new-york",
+    "description": "Find professional tanning bed repair technicians in New York.",
+    "technicians": [
+      {
+        "businessName": "Bob Duff's Electric",
+        "address": "118 Polar Plaza Amsterdam, NY 12010",
+        "phone": "518-424-7917"
+      },
+      {
+        "businessName": "Stay Tan North",
+        "address": "1 Elm St Suite A Locust Valley, NY 11560",
+        "phone": "516-671-2826"
+      },
+      {
+        "businessName": "DC Electric",
+        "address": "612 93rd St Niagara Falls, NY 14304",
+        "phone": "716-283-4428"
+      }
+    ]
+  },
+  {
+    "name": "North Carolina",
+    "slug": "north-carolina",
+    "description": "Find professional tanning bed repair technicians in North Carolina.",
+    "technicians": [
+      {
+        "businessName": "EMT Electric",
+        "address": "2899 Peachtree St Claremont, NC 28610",
+        "phone": "828-459-2510"
+      },
+      {
+        "businessName": "Woods Electric",
+        "address": "1342 Bob Mabe RD Danbury, NC 27016",
+        "phone": "336-593-9755"
+      },
+      {
+        "businessName": "Midway Tanning Supply",
+        "address": "904 S Main St Kannapolis, NC 28081",
+        "phone": "704-932-4557"
+      },
+      {
+        "businessName": "Master Tanning Inc",
+        "address": "4905 Hwy 70 E New Bern, NC 28560",
+        "phone": "800-552-4446"
+      },
+      {
+        "businessName": "The Windward Group",
+        "address": "7456 Deer Track Dr Raleigh, NC 27613",
+        "phone": "919-846-1648"
+      },
+      {
+        "businessName": "Universal Sun Associates",
+        "address": "6223 B Old Us Hwy 52 PO Box 1868 Welcome, NC 27374",
+        "phone": "800-621-8266"
+      }
+    ]
+  },
+  {
+    "name": "North Dakota",
+    "slug": "north-dakota",
+    "description": "Find professional tanning bed repair technicians in North Dakota.",
+    "technicians": []
+  },
+  {
+    "name": "Ohio",
+    "slug": "ohio",
+    "description": "Find professional tanning bed repair technicians in Ohio.",
+    "technicians": [
+      {
+        "businessName": "Mark Watchowksi",
+        "address": "T937 Rd 1 Grand Rapids, OH 43522",
+        "phone": "614-325-8909"
+      },
+      {
+        "businessName": "Salon Technical Services",
+        "address": "8538 Royal Birkdale Ln Holland, OH 43528",
+        "phone": "419-867-8837"
+      },
+      {
+        "businessName": "Tanning Partners",
+        "address": "18547 Delaware County Line Rd Ostrander, OH 43061",
+        "phone": "614-570-2895"
+      },
+      {
+        "businessName": "Sunline Supply",
+        "address": "324 W Case St Powell, OH 43065",
+        "phone": "800-627-6231"
+      },
+      {
+        "businessName": "California Sun Tanning",
+        "address": "2787 E Midlothian Blvd Struthers, OH 44471",
+        "phone": "330-755-6030"
+      },
+      {
+        "businessName": "Universal Products",
+        "address": "1763 County Rd 171 Scottown, OH 45678",
+        "phone": "800-919-9597"
+      },
+      {
+        "businessName": "ITTServices, Kalamazoo, MI.1-800-579-6808 or 269-329-4617"
+      }
+    ]
+  },
+  {
+    "name": "Oklahoma",
+    "slug": "oklahoma",
+    "description": "Find professional tanning bed repair technicians in Oklahoma.",
+    "technicians": [
+      {
+        "businessName": "Fitness Services of Oklahoma",
+        "address": "13508 E 67th St Broken Arrow, OK 74012",
+        "phone": "918-521-5006"
+      }
+    ]
+  },
+  {
+    "name": "Oregon",
+    "slug": "oregon",
+    "description": "Find professional tanning bed repair technicians in Oregon.",
+    "technicians": [
+      {
+        "businessName": "Willie's More Power Sign & Electric",
+        "address": "1650 Hillila Rd Gearhart, OR 97138",
+        "phone": "503-738-5645"
+      }
+    ]
+  },
+  {
+    "name": "Pennsylvania",
+    "slug": "pennsylvania",
+    "description": "Find professional tanning bed repair technicians in Pennsylvania.",
+    "technicians": [
+      {
+        "businessName": "Holtz Improvements Inc",
+        "address": "PO Box 32 Harrisville, PA 16038",
+        "phone": "724-735-2000"
+      },
+      {
+        "businessName": "Superior Tanning Systems",
+        "address": "37 W Vine St Apartment A Stowe, PA 19464",
+        "phone": "724-549-6966"
+      },
+      {
+        "businessName": "Motts Electric",
+        "address": "146 Countryview Dr McKee's Rocks, PA 15136",
+        "phone": "412-401-3721"
+      },
+      {
+        "businessName": "Heritage Enterprises Inc",
+        "address": "13 S Euclid Ave 2nd Floor Pittsburgh, PA 15202",
+        "phone": "412-732-9075"
+      },
+      {
+        "businessName": "Ball Park Tanning",
+        "address": "123 Main Ave Suite 711 Walston, PA 15781",
+        "phone": "814-938-2346"
+      },
+      {
+        "businessName": "Pool City",
+        "address": "5555 Mountainview Dr West Mifflin, PA 15122",
+        "phone": "412-678-1974"
+      }
+    ]
+  },
+  {
+    "name": "Rhode Island",
+    "slug": "rhode-island",
+    "description": "Find professional tanning bed repair technicians in Rhode Island.",
+    "technicians": []
+  },
+  {
+    "name": "South Carolina",
+    "slug": "south-carolina",
+    "description": "Find professional tanning bed repair technicians in South Carolina.",
+    "technicians": [
+      {
+        "businessName": "Desert Sun Tanning",
+        "address": "1099 Yellowstone Dr Florence, SC 29505",
+        "phone": "800-605-5841"
+      },
+      {
+        "businessName": "Ultra Tan",
+        "address": "15 Santuck St Greenville, SC 29611",
+        "phone": "864-298-0190"
+      },
+      {
+        "businessName": "Southeastern Ultraviolet Services",
+        "address": "108 Farmington Rd Greenville, SC 29605",
+        "phone": "864-905-6047"
+      },
+      {
+        "businessName": "NGD Salon Services",
+        "address": "118 Flowing Well Rd Wagener, SC 29164",
+        "phone": "803-642-8563"
+      }
+    ]
+  },
+  {
+    "name": "South Dakota",
+    "slug": "south-dakota",
+    "description": "Find professional tanning bed repair technicians in South Dakota.",
+    "technicians": []
+  },
+  {
+    "name": "Tennessee",
+    "slug": "tennessee",
+    "description": "Find professional tanning bed repair technicians in Tennessee.",
+    "technicians": [
+      {
+        "businessName": "Sunco Inc",
+        "address": "876 Holliston Mills Rd Church Hill, TN 37642",
+        "phone": "800-382-8932"
+      },
+      {
+        "businessName": "Amps Tanning",
+        "address": "940 West Ave Crossville, TN 38555",
+        "phone": "931-902-1212"
+      },
+      {
+        "businessName": "Envy Tanning Salon",
+        "address": "212 Springer Rd Lawrenceburg, TN 38464",
+        "phone": "931-762-3689"
+      },
+      {
+        "businessName": "Tanning Bed Repair",
+        "address": "2801 Waywood Dr Murfreesboro, TN 37128",
+        "phone": "931-260-4509"
+      },
+      {
+        "businessName": "David Goddard Services",
+        "address": "588 Pinto Rd Greenville, TN 37745",
+        "phone": "423-620-0700"
+      },
+      {
+        "businessName": "Tan Time Enterprises",
+        "address": "9201 Hwy 69 S Springville, TN 38256",
+        "phone": "731-593-0560"
+      },
+      {
+        "businessName": "Tanning Source Inc",
+        "address": "1202 Colonial Drive Union City, TN 38281",
+        "phone": "731-884-1338"
+      },
+      {
+        "businessName": "Bentcreek Equipment and Repair",
+        "address": "500 Steadman Rd Whitesburg, TN 37891",
+        "phone": "423-312-6433"
       }
     ]
   },
   {
     "name": "Texas",
     "slug": "texas",
-    "description": "Find tanning bed repair technicians in Texas including Houston, Dallas, Austin, and San Antonio.",
+    "description": "Find professional tanning bed repair technicians in Texas.",
+    "technicians": [
+      {
+        "businessName": "Ultra Tanning Supply",
+        "address": "2224 Commerce Dr Arlington, TX 76011",
+        "phone": "800-591-8266"
+      },
+      {
+        "businessName": "Body Works Fitness Equipment LLC",
+        "address": "2222 W Rundberg Ln Suite 400 Austin, TX 78758",
+        "phone": "512-442-0700"
+      },
+      {
+        "businessName": "RnP Service LLC",
+        "address": "119 Goliad Suite 202 Benbrook, TX 76126",
+        "phone": "817-343-5514"
+      },
+      {
+        "businessName": "Phoenix Business Services",
+        "address": "11445 Jim Ferriell Dr El Paso, TX 79936",
+        "phone": "915-590-2711"
+      },
+      {
+        "businessName": "Flex-Tan Services",
+        "address": "920 N Main St Huntington, TX 75949",
+        "phone": "979-203-3335"
+      },
+      {
+        "businessName": "Baker Electric",
+        "address": "14110 County Road 1800 Lubbock, TX 79424",
+        "phone": "806-794-4683"
+      },
+      {
+        "businessName": "KH Tanning",
+        "address": "30911 Sifton Dr Spring, TX 77386",
+        "phone": "832-813-0994"
+      },
+      {
+        "businessName": "Tan Pros",
+        "address": "17578 Kuykendahl Rd Spring, TX 77379",
+        "phone": "281-350-8265"
+      }
+    ]
+  },
+  {
+    "name": "Utah",
+    "slug": "utah",
+    "description": "Find professional tanning bed repair technicians in Utah.",
+    "technicians": [
+      {
+        "businessName": "Captian Electric",
+        "address": "1196 N 1270 E American Fort, UT 84003",
+        "phone": "801-221-0747"
+      },
+      {
+        "businessName": "Ford's Cleaning & Maintenance",
+        "address": "694 W 40 N Orem, UT 84057",
+        "phone": "801-765-9725"
+      },
+      {
+        "businessName": "Taylor Electric",
+        "address": "1018 W Beardsley Pl Salt Lake City, UT 84119",
+        "phone": "801-413-1306"
+      }
+    ]
+  },
+  {
+    "name": "Vermont",
+    "slug": "vermont",
+    "description": "Find professional tanning bed repair technicians in Vermont.",
+    "technicians": [
+      {
+        "businessName": "Mike's Electric",
+        "address": "494 Morse Rd Jay, VT 5859",
+        "phone": "802-988-9678"
+      }
+    ]
+  },
+  {
+    "name": "Virginia",
+    "slug": "virginia",
+    "description": "Find professional tanning bed repair technicians in Virginia.",
+    "technicians": []
+  },
+  {
+    "name": "Washington",
+    "slug": "washington",
+    "description": "Find professional tanning bed repair technicians in Washington.",
+    "technicians": [
+      {
+        "businessName": "Sun Wrench LLC",
+        "address": "129 194th St SE Bothell, WA 98012",
+        "phone": "425-346-8548"
+      },
+      {
+        "businessName": "A-1 Tanning",
+        "address": "14017 SE 278th St Kent, WA 98042",
+        "phone": "253-639-8826"
+      }
+    ]
+  },
+  {
+    "name": "West Virginia",
+    "slug": "west-virginia",
+    "description": "Find professional tanning bed repair technicians in West Virginia.",
+    "technicians": []
+  },
+  {
+    "name": "Wisconsin",
+    "slug": "wisconsin",
+    "description": "Find professional tanning bed repair technicians in Wisconsin.",
+    "technicians": []
+  },
+  {
+    "name": "Wyoming",
+    "slug": "wyoming",
+    "description": "Find professional tanning bed repair technicians in Wyoming.",
     "technicians": []
   }
 ]

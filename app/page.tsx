@@ -144,38 +144,40 @@ export default function Home() {
         </div>
       </section>
 
-      {/* State Selector Section */}
+      {/* Find Technician CTA Section */}
       <section id="find-technician" className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Find a Technician
+              Find a Technician Near You
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Select your state to view certified repair technicians, specializations, and reviews
+              Search our nationwide directory of certified repair technicians
             </p>
           </div>
 
-          <div className="max-w-md mx-auto">
-            <label htmlFor="state-select" className="block text-lg font-semibold text-gray-900 mb-3">
-              Choose Your State:
-            </label>
-            <select
-              id="state-select"
-              onChange={(e) => {
-                if (e.target.value) {
-                  window.location.href = `/states/${e.target.value}`;
-                }
-              }}
-              className="w-full px-6 py-4 text-lg border-2 border-blue-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white cursor-pointer shadow-sm hover:shadow-md transition"
-            >
-              <option value="">-- Select Your State --</option>
-              {statesData.map((state) => (
-                <option key={state.slug} value={state.slug}>
-                  {state.name}
-                </option>
-              ))}
-            </select>
+          <div className="max-w-2xl mx-auto">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 border-2 border-blue-600 rounded-2xl p-8 text-center">
+              <div className="mb-6">
+                <div className="text-6xl mb-4">🔍</div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                  Access Our Full Directory
+                </h3>
+                <ul className="text-left max-w-md mx-auto space-y-2 text-gray-700 mb-6">
+                  <li>✓ Search by business name or city</li>
+                  <li>✓ Filter by state (164 technicians in 40 states)</li>
+                  <li>✓ View contact info and specializations</li>
+                  <li>✓ Browse all technicians at once</li>
+                </ul>
+              </div>
+
+              <Link
+                href="/directory"
+                className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-10 py-4 rounded-lg text-xl font-bold shadow-lg hover:shadow-xl transition transform hover:scale-105"
+              >
+                Browse Directory →
+              </Link>
+            </div>
           </div>
         </div>
       </section>

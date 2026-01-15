@@ -73,17 +73,17 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
                       </div>
                       <div>
                         <h3 className="text-2xl font-bold text-gray-900 mb-2">{tech.businessName}</h3>
-                        {'rating' in tech && tech.rating && (
+                        {'rating' in tech && tech.rating && typeof tech.rating === 'number' && (
                           <div className="flex items-center gap-2 mb-2">
                             <div className="flex items-center">
                               {[...Array(5)].map((_, i) => (
-                                <span key={i} className={`text-xl ${i < Math.floor(tech.rating!) ? 'text-yellow-400' : 'text-gray-300'}`}>
+                                <span key={i} className={`text-xl ${i < Math.floor(tech.rating as number) ? 'text-yellow-400' : 'text-gray-300'}`}>
                                   ★
                                 </span>
                               ))}
                             </div>
                             <span className="text-lg font-semibold text-gray-900">{tech.rating}</span>
-                            {'reviewCount' in tech && tech.reviewCount && (
+                            {'reviewCount' in tech && tech.reviewCount && typeof tech.reviewCount === 'number' && (
                               <span className="text-gray-600">({tech.reviewCount} reviews)</span>
                             )}
                           </div>

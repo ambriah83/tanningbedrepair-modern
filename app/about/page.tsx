@@ -8,7 +8,7 @@ export default function AboutPage() {
             About TanningBedRepair.com
           </h1>
           <p className="text-xl text-gray-600">
-            Your comprehensive resource for tanning bed repair, maintenance, and professional service nationwide.
+            We are a team of three industry professionals with one shared goal: making tanning salon maintenance easier, faster, and more reliable.
           </p>
         </div>
 
@@ -17,102 +17,118 @@ export default function AboutPage() {
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Mission</h2>
             <p className="text-lg text-gray-600 mb-4">
-              TanningBedRepair.com is dedicated to providing salon owners and operators with the resources, expertise, and support they need to keep their tanning equipment running smoothly.
+              Our platform was created to bridge a long-standing gap in the tanning industry—connecting tanning salon owners with qualified, knowledgeable maintenance technicians, while also providing clear troubleshooting guidance and maintenance documentation to keep equipment running smoothly.
             </p>
-            <p className="text-lg text-gray-600">
-              Whether you need to find a certified technician, access troubleshooting guides, or get expert training, we're here to help you maximize uptime and minimize costly downtime.
+            <p className="text-lg text-gray-700 font-semibold italic">
+              Support salon owners, empower technicians, and keep tanning equipment running at its best.
             </p>
           </div>
         </div>
 
-        {/* What We Offer */}
-        <div className="max-w-6xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">What We Offer</h2>
+        {/* Built by Industry Insiders */}
+        <div className="max-w-4xl mx-auto mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Built by Industry Insiders</h2>
+          <p className="text-lg text-gray-600 mb-8 text-center">
+            This business was founded by people who have lived every side of the tanning salon operation:
+          </p>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="space-y-6">
+            {/* Jonathan */}
+            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-600">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Jonathan</h3>
+              <p className="text-gray-600">
+                Jonathan brings over 12 years of hands-on experience as a tanning equipment maintenance technician, diagnosing, repairing, and maintaining a wide range of tanning beds and systems. His technical expertise forms the backbone of our repair resources and technician standards.
+              </p>
+            </div>
+
+            {/* Second Founder */}
+            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-orange-500">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Our Technical Director</h3>
+              <p className="text-gray-600">
+                With experience as both a tanning salon employee and a maintenance technician/maintenance director, our technical director offers a unique dual perspective. This insight helps ensure our platform supports day-to-day salon operations while also addressing real-world maintenance challenges.
+              </p>
+            </div>
+
+            {/* Ambria */}
+            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-600">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Ambria</h3>
+              <p className="text-gray-600">
+                Ambria contributes firsthand knowledge as an owner-operator, understanding the pressures of running a salon—downtime costs, staffing challenges, and the need for reliable, timely service.
+              </p>
+            </div>
+          </div>
+
+          <p className="text-lg text-gray-700 text-center mt-8 font-medium">
+            Together, we understand the frustrations, the urgency, and the importance of keeping equipment operational and safe.
+          </p>
+        </div>
+
+        {/* What We Do */}
+        <div className="max-w-6xl mx-auto mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">What We Do</h2>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white p-6 rounded-lg shadow-md flex items-start">
+              <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                <svg className="w-6 h-6 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Nationwide Technician Directory</h3>
-              <p className="text-gray-600">
-                Connect with certified tanning bed repair technicians in all 50 states. Our free directory helps you find qualified professionals near you.
-              </p>
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-1">Connect Owners with Technicians</h3>
+                <p className="text-gray-600">Connect tanning salon owners with qualified maintenance technicians across all 50 states.</p>
+              </div>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-orange-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            <div className="bg-white p-6 rounded-lg shadow-md flex items-start">
+              <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                <svg className="w-6 h-6 text-orange-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Expert Resources</h3>
-              <p className="text-gray-600">
-                Access comprehensive troubleshooting guides, repair manuals, and technical documentation for all major tanning bed brands.
-              </p>
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-1">Troubleshooting Resources</h3>
+                <p className="text-gray-600">Provide repair troubleshooting resources to help diagnose and fix common issues.</p>
+              </div>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            <div className="bg-white p-6 rounded-lg shadow-md flex items-start">
+              <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                <svg className="w-6 h-6 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Professional Training</h3>
-              <p className="text-gray-600">
-                Comprehensive training programs for salon owners and staff on tanning bed operation, maintenance, and safety.
-              </p>
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-1">Maintenance Documentation</h3>
+                <p className="text-gray-600">Offer clear, practical maintenance documentation for all major equipment brands.</p>
+              </div>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md flex items-start">
+              <div className="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                <svg className="w-6 h-6 text-purple-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-1">Reduce Downtime</h3>
+                <p className="text-gray-600">Help salons reduce downtime, extend equipment life, and operate with confidence.</p>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Why Choose Us */}
+        {/* Why We Exist */}
         <div className="max-w-4xl mx-auto mb-16">
           <div className="bg-gradient-to-r from-blue-700 to-blue-900 text-white p-8 rounded-lg">
-            <h2 className="text-3xl font-bold mb-6 text-center">Why Salon Owners Choose Us</h2>
-
-            <div className="space-y-4">
-              <div className="flex items-start">
-                <svg className="w-6 h-6 text-blue-300 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <div>
-                  <h3 className="font-semibold text-lg mb-1">Comprehensive Coverage</h3>
-                  <p className="text-blue-100">Technicians in all 50 states means you can always find help nearby.</p>
-                </div>
-              </div>
-
-              <div className="flex items-start">
-                <svg className="w-6 h-6 text-blue-300 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <div>
-                  <h3 className="font-semibold text-lg mb-1">Expert Knowledge Base</h3>
-                  <p className="text-blue-100">Years of collected troubleshooting guides and repair documentation at your fingertips.</p>
-                </div>
-              </div>
-
-              <div className="flex items-start">
-                <svg className="w-6 h-6 text-blue-300 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <div>
-                  <h3 className="font-semibold text-lg mb-1">Industry Experience</h3>
-                  <p className="text-blue-100">Built by industry professionals who understand the unique challenges of salon operations.</p>
-                </div>
-              </div>
-
-              <div className="flex items-start">
-                <svg className="w-6 h-6 text-blue-300 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <div>
-                  <h3 className="font-semibold text-lg mb-1">Affordable Access</h3>
-                  <p className="text-blue-100">Free technician directory and affordable membership for premium resources.</p>
-                </div>
-              </div>
+            <h2 className="text-3xl font-bold mb-6 text-center">Why We Exist</h2>
+            <p className="text-lg text-blue-100 mb-6 text-center">
+              Too many salon owners struggle to find dependable maintenance support or accurate repair information when they need it most. We created this platform to be a trusted, industry-specific solution—built by people who understand tanning salons from the inside out.
+            </p>
+            <div className="bg-white/10 rounded-lg p-6">
+              <p className="text-xl text-white text-center font-semibold">
+                Our mission is simple: Support salon owners, empower technicians, and keep tanning equipment running at its best.
+              </p>
             </div>
           </div>
         </div>
@@ -149,7 +165,7 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="/states"
+              href="/directory"
               className="inline-block bg-blue-700 hover:bg-blue-800 text-white px-8 py-3 rounded-lg font-semibold transition"
             >
               Find a Technician

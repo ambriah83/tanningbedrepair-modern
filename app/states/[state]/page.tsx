@@ -107,25 +107,25 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
                           {tech.address}
                         </p>
                       )}
-                      {'serviceAreas' in tech && tech.serviceAreas && (
+                      {'serviceAreas' in tech && tech.serviceAreas && typeof tech.serviceAreas === 'string' && (
                         <p className="text-gray-700">
                           <strong className="text-gray-900">🗺️ Service Areas:</strong><br />
-                          {tech.serviceAreas}
+                          {tech.serviceAreas as string}
                         </p>
                       )}
-                      {'contact' in tech && tech.contact && (
+                      {'contact' in tech && tech.contact && typeof tech.contact === 'string' && (
                         <p className="text-sm text-gray-600 mt-3">
-                          {tech.contact}
+                          {tech.contact as string}
                         </p>
                       )}
                     </div>
 
                     {/* Specializations */}
-                    {'specializations' in tech && tech.specializations && tech.specializations.length > 0 && (
+                    {'specializations' in tech && tech.specializations && Array.isArray(tech.specializations) && tech.specializations.length > 0 && (
                       <div>
                         <h4 className="font-bold text-gray-900 mb-3">🔧 Specializations:</h4>
                         <ul className="space-y-2">
-                          {tech.specializations.map((spec, i) => (
+                          {(tech.specializations as string[]).map((spec, i) => (
                             <li key={i} className="flex items-start">
                               <span className="text-green-600 mr-2">✓</span>
                               <span className="text-gray-700">{spec}</span>
@@ -137,20 +137,20 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
                   </div>
 
                   {/* Certifications */}
-                  {'certifications' in tech && tech.certifications && (
+                  {'certifications' in tech && tech.certifications && typeof tech.certifications === 'string' && (
                     <div className="bg-blue-50 border-l-4 border-blue-600 p-4 mb-6">
                       <p className="text-sm text-blue-900">
-                        <strong>✓ Certifications:</strong> {tech.certifications}
+                        <strong>✓ Certifications:</strong> {tech.certifications as string}
                       </p>
                     </div>
                   )}
 
                   {/* Reviews */}
-                  {'reviews' in tech && tech.reviews && tech.reviews.length > 0 && (
+                  {'reviews' in tech && tech.reviews && Array.isArray(tech.reviews) && tech.reviews.length > 0 && (
                     <div className="border-t pt-6">
                       <h4 className="font-bold text-gray-900 mb-4 text-lg">Customer Reviews:</h4>
                       <div className="space-y-4">
-                        {tech.reviews.map((review, i) => (
+                        {(tech.reviews as any[]).map((review: any, i) => (
                           <div key={i} className="bg-gray-50 p-4 rounded-lg">
                             <div className="flex items-center justify-between mb-2">
                               <div className="flex items-center gap-2">

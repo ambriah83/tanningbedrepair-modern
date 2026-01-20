@@ -26,39 +26,69 @@ export default function AboutPage() {
         </div>
 
         {/* Built by Industry Insiders */}
-        <div className="max-w-4xl mx-auto mb-16">
+        <div className="max-w-6xl mx-auto mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Built by Industry Insiders</h2>
-          <p className="text-lg text-gray-600 mb-8 text-center">
+          <p className="text-lg text-gray-600 mb-10 text-center">
             This business was founded by people who have lived every side of the tanning salon operation:
           </p>
 
-          <div className="space-y-6">
-            {/* Jonathan */}
-            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-600">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Jonathan</h3>
-              <p className="text-gray-600">
-                Jonathan brings over 12 years of hands-on experience as a tanning equipment maintenance technician, diagnosing, repairing, and maintaining a wide range of tanning beds and systems. His technical expertise forms the backbone of our repair resources and technician standards.
-              </p>
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Johnny */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="h-64 bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center">
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                  alt="Johnny - Lead Technician"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-1">Johnny</h3>
+                <p className="text-blue-600 font-medium text-sm mb-3">Lead Technician</p>
+                <p className="text-gray-600 text-sm">
+                  Johnny brings over 12 years of hands-on experience as a tanning equipment maintenance technician, diagnosing, repairing, and maintaining a wide range of tanning beds and systems. His technical expertise forms the backbone of our repair resources and technician standards.
+                </p>
+              </div>
             </div>
 
-            {/* Second Founder */}
-            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-orange-500">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Our Technical Director</h3>
-              <p className="text-gray-600">
-                With experience as both a tanning salon employee and a maintenance technician/maintenance director, our technical director offers a unique dual perspective. This insight helps ensure our platform supports day-to-day salon operations while also addressing real-world maintenance challenges.
-              </p>
+            {/* Lanna */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="h-64 bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center">
+                <img
+                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=400&fit=crop&crop=face"
+                  alt="Lanna - Technical Director"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-1">Lanna</h3>
+                <p className="text-orange-600 font-medium text-sm mb-3">Technical Director</p>
+                <p className="text-gray-600 text-sm">
+                  With experience as both a tanning salon employee and a maintenance technician/maintenance director, Lanna offers a unique dual perspective. This insight helps ensure our platform supports day-to-day salon operations while also addressing real-world maintenance challenges.
+                </p>
+              </div>
             </div>
 
             {/* Ambria */}
-            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-600">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Ambria</h3>
-              <p className="text-gray-600">
-                Ambria contributes firsthand knowledge as an owner-operator, understanding the pressures of running a salon—downtime costs, staffing challenges, and the need for reliable, timely service.
-              </p>
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="h-64 bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center">
+                <img
+                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face"
+                  alt="Ambria - Owner & Operations"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-1">Ambria</h3>
+                <p className="text-green-600 font-medium text-sm mb-3">Owner & Operations</p>
+                <p className="text-gray-600 text-sm">
+                  Ambria contributes firsthand knowledge as an owner-operator, understanding the pressures of running a salon—downtime costs, staffing challenges, and the need for reliable, timely service.
+                </p>
+              </div>
             </div>
           </div>
 
-          <p className="text-lg text-gray-700 text-center mt-8 font-medium">
+          <p className="text-lg text-gray-700 text-center mt-10 font-medium">
             Together, we understand the frustrations, the urgency, and the importance of keeping equipment operational and safe.
           </p>
         </div>

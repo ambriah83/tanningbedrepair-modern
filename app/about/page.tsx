@@ -135,15 +135,15 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto items-stretch">
             {/* Johnny */}
-            <div className="group">
-              <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
-                <div className="h-72 relative overflow-hidden">
+            <div className="group flex">
+              <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 flex flex-col w-full">
+                <div className="h-72 relative overflow-hidden flex-shrink-0">
                   <img
                     src="/images/jonathan.jpg"
                     alt="Jonathan - Lead Technician"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                     <span className="inline-block bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
@@ -151,7 +151,7 @@ export default function AboutPage() {
                     </span>
                   </div>
                 </div>
-                <div className="p-6">
+                <div className="p-6 flex-grow">
                   <h3 className="text-xl font-bold text-gray-900">Jonathan</h3>
                   <p className="text-blue-600 font-medium text-sm mb-3">Lead Technician</p>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -162,13 +162,13 @@ export default function AboutPage() {
             </div>
 
             {/* Lanna */}
-            <div className="group">
-              <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
-                <div className="h-72 relative overflow-hidden">
+            <div className="group flex">
+              <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 flex flex-col w-full">
+                <div className="h-72 relative overflow-hidden flex-shrink-0">
                   <img
                     src="/images/lanna.png"
                     alt="Lanna - Technical Director"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                     <span className="inline-block bg-orange-500 text-white text-xs font-semibold px-3 py-1 rounded-full">
@@ -176,7 +176,7 @@ export default function AboutPage() {
                     </span>
                   </div>
                 </div>
-                <div className="p-6">
+                <div className="p-6 flex-grow">
                   <h3 className="text-xl font-bold text-gray-900">Lanna</h3>
                   <p className="text-orange-600 font-medium text-sm mb-3">Technical Director</p>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -187,13 +187,13 @@ export default function AboutPage() {
             </div>
 
             {/* Ambria */}
-            <div className="group">
-              <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
-                <div className="h-72 relative overflow-hidden">
+            <div className="group flex">
+              <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 flex flex-col w-full">
+                <div className="h-72 relative overflow-hidden flex-shrink-0">
                   <img
                     src="/images/ambria.jpg"
                     alt="Ambria - Owner & Operations"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                     <span className="inline-block bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
@@ -201,7 +201,7 @@ export default function AboutPage() {
                     </span>
                   </div>
                 </div>
-                <div className="p-6">
+                <div className="p-6 flex-grow">
                   <h3 className="text-xl font-bold text-gray-900">Ambria</h3>
                   <p className="text-green-600 font-medium text-sm mb-3">Owner & Operations</p>
                   <p className="text-gray-600 text-sm leading-relaxed">

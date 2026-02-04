@@ -141,7 +141,7 @@ export default function AboutPage() {
               <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
                 <div className="h-72 relative overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                    src="/images/jonathan.jpg"
                     alt="Jonathan - Lead Technician"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />

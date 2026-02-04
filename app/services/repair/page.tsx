@@ -26,8 +26,8 @@ export default function ServiceRepairPage() {
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Electrical Repairs</h3>
-            <p className="text-gray-600">Complete electrical diagnostics and repairs by certified technicians.</p>
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">Preventative Maintenance</h3>
+            <p className="text-gray-600">Regular maintenance programs to keep your equipment running at peak performance.</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-md">

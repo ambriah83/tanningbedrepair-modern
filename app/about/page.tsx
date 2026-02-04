@@ -13,7 +13,7 @@ export default function AboutPage() {
               <span className="text-orange-400">One Mission.</span>
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              We're making tanning salon maintenance easier, faster, and more reliable—because we've been in your shoes.
+              Our platform bridges a long-standing gap in the tanning industry—connecting salon owners with qualified technicians while providing clear troubleshooting guidance and maintenance documentation.
             </p>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function AboutPage() {
               The Problem We Saw
             </h2>
             <p className="text-lg text-gray-600">
-              Too many salon owners struggle to find dependable maintenance support or accurate repair information when they need it most. When a bed goes down, every hour costs money.
+              Too many salon owners struggle to find dependable maintenance support or accurate repair information when they need it most. We created this platform to be a trusted, industry-specific solution—built by people who understand tanning salons from the inside out.
             </p>
           </div>
 
@@ -142,7 +142,7 @@ export default function AboutPage() {
                 <div className="h-72 relative overflow-hidden">
                   <img
                     src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
-                    alt="Johnny - Lead Technician"
+                    alt="Jonathan - Lead Technician"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
@@ -152,10 +152,10 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900">Johnny</h3>
+                  <h3 className="text-xl font-bold text-gray-900">Jonathan</h3>
                   <p className="text-blue-600 font-medium text-sm mb-3">Lead Technician</p>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    12+ years diagnosing and repairing tanning equipment across dozens of brands. Johnny's hands-on expertise shapes our repair resources and technician standards.
+                    Over 12 years of hands-on experience diagnosing, repairing, and maintaining a wide range of tanning beds and systems. His technical expertise forms the backbone of our repair resources and technician standards.
                   </p>
                 </div>
               </div>
@@ -180,7 +180,7 @@ export default function AboutPage() {
                   <h3 className="text-xl font-bold text-gray-900">Lanna</h3>
                   <p className="text-orange-600 font-medium text-sm mb-3">Technical Director</p>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    Experience as both a salon employee and maintenance director gives Lanna a unique perspective—bridging daily operations with real-world maintenance challenges.
+                    A unique dual perspective with experience as both a tanning salon employee and a maintenance technician/maintenance director. This insight helps ensure our platform supports day-to-day salon operations while addressing real-world maintenance challenges.
                   </p>
                 </div>
               </div>
@@ -205,7 +205,7 @@ export default function AboutPage() {
                   <h3 className="text-xl font-bold text-gray-900">Ambria</h3>
                   <p className="text-green-600 font-medium text-sm mb-3">Owner & Operations</p>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    As a salon owner-operator, Ambria understands the real pressures—downtime costs, staffing challenges, and the critical need for reliable, timely service.
+                    Firsthand knowledge as an owner-operator, understanding the pressures of running a salon—downtime costs, staffing challenges, and the need for reliable, timely service.
                   </p>
                 </div>
               </div>
@@ -213,7 +213,7 @@ export default function AboutPage() {
           </div>
 
           <p className="text-center text-gray-700 mt-10 text-lg max-w-2xl mx-auto">
-            Together, we understand the frustrations, the urgency, and what it takes to keep equipment operational and safe.
+            Together, we understand the frustrations, the urgency, and the importance of keeping equipment operational and safe. Our mission is simple: Support salon owners, empower technicians, and keep tanning equipment running at its best.
           </p>
         </div>
       </section>

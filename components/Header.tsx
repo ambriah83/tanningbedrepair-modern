@@ -48,7 +48,8 @@ export default function Header() {
               </button>
 
               {servicesOpen && (
-                <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-lg shadow-lg border border-gray-200 py-2">
+                <div className="absolute top-full left-0 pt-2 w-56">
+                  <div className="bg-white rounded-lg shadow-lg border border-gray-200 py-2">
                   <Link
                     href="/services/repair"
                     className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition"
@@ -67,6 +68,7 @@ export default function Header() {
                   >
                     Install/Relocation
                   </Link>
+                  </div>
                 </div>
               )}
             </div>

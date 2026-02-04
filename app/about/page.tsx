@@ -166,7 +166,7 @@ export default function AboutPage() {
               <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
                 <div className="h-72 relative overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=400&fit=crop&crop=face"
+                    src="/images/lanna.png"
                     alt="Lanna - Technical Director"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -191,7 +191,7 @@ export default function AboutPage() {
               <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100">
                 <div className="h-72 relative overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face"
+                    src="/images/ambria.jpg"
                     alt="Ambria - Owner & Operations"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
